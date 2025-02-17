@@ -58,9 +58,13 @@ public class Employee {
         return "id=" + id + ", " + fullName + '\'' +
                 ", отдел=" + department +
                 ", зарплата=" + salary +
-                        '}';
+                '}';
     }
 
+    public int getId() {
+        return id;
+    }
 }
+
 
 
